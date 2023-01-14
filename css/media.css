@@ -1,0 +1,6 @@
+@media (max-width: 1440px) {
+
+    .main__products__card__wrapper, .main__all__products__card__wrapper {
+        justify-content: center;
+    }
+}
