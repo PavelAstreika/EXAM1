@@ -4,3 +4,10 @@
         justify-content: center;
     }
 }
+
+@media (max-width: 1360px) {
+
+    .main__work__description__wrapper {
+        margin-left: auto;
+    }
+}
