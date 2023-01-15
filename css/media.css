@@ -339,3 +339,142 @@
         max-height: 300px;
     }
 }
+
+@media (max-width: 640px) {
+
+    .container {
+        width: 80%;
+    }
+
+    .header__logo img {
+        width: 130px;
+    }
+
+    .header__logo img,
+    .header__logo {
+        height: 37px;
+    }
+
+    .header__cart__wrapper {
+        width: 130px;
+    }
+
+    .header__cart__icon {
+        width: 45px;
+        height: 45px;
+    }
+
+    .header__cart__text {
+        margin-right: 20px;
+    }
+    .main__promo__title, 
+    .text__title {
+        width: 80%;
+    }
+    .main__promo__title,
+    .main__offer__text {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .main__offer__item__one, 
+    .main__offer__item__two {
+        padding: 40px 0px 40px 55px;
+    }
+
+    .main__offer {
+        gap: 20px;
+    }
+
+    .main__promo,
+    .main__offer,
+    .main__information,
+    .main__reviews,
+    .main__all__products,
+    .main__categories {
+        padding: 20px 0;
+    }
+
+    .main__products__card__wrapper, 
+    .main__all__products__card__wrapper {
+        margin: 20px 0;
+    }
+    
+    .button::after {
+        left: 0;
+    }
+    .button__main__promo,
+    .button__main__information,
+    .main__all__products__button,
+    .footer__email__subscription__button {
+        padding: 15px;
+        width: initial;
+    }
+
+    .main__information__text {
+        width: 100%;
+    }
+
+    .main__reviews__advantage__item {
+        max-width: 120px;
+        max-height: 120px;
+    }
+
+    .main__reviews__advantage__item::before {
+        max-width: 140px;
+        max-height: 140px;
+    }
+
+    .main__reviews__title {
+        margin-bottom: 20px;
+    }
+
+    .footer__email__subscription__title,
+    .main__reviews__advantage__value {
+        font-size: 30px;
+        line-height: 36px;
+        text-align: center;
+    }
+
+    .main__all__products__title {
+        text-align: center;
+    }
+
+    .footer__email__subscription__form {
+        height: 62px;
+        width: 90%;
+        min-width: 180px;
+        font-size: 14px;
+        line-height: 20px;
+        padding: 0 10px;
+    }
+
+    .footer__info__contacts,
+    .footer__info__pages {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .footer__info__contacts__title, .footer__info__pages__title {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .footer__info__logo img {
+        width: 120px;
+    }
+
+    .footer__info__company__description {
+        margin: 20px auto 30px auto;
+    }
+
+    .footer__info__company__social {
+        justify-content: center;
+    }
+
+    .footer__info__company__social__item {
+        width: 40px;
+        height: 40px;
+    }
+
+}
