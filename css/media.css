@@ -246,3 +246,96 @@
         line-height: 56px;
     }
 }
+
+@media (max-width: 768px) {
+
+    .main__promo__title,
+    .text__title {
+        max-width: 400px;
+    }
+
+    .main__offer {
+        padding: 50px 0;
+    }
+
+    .main__offer__item__one, 
+    .main__offer__item__two {
+        padding: 60px 0px 60px 55px;
+    }
+
+    .main__information__text {
+        width: 90%;;
+    }
+
+    .main__products__card img,
+    .main__all__products__card img {
+        width: 75%;
+    } 
+
+    .main__products__card,
+    .main__all__products__card {
+        text-align: center;
+    }
+
+    .main__products__card__wrapper, 
+    .main__all__products__card__wrapper {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 380px));
+    }
+
+    .main__reviews__advantage {
+        gap: 30px;
+    }
+    .main__reviews__advantage__item {
+        max-width: 180px;
+        max-height: 180px;
+    }
+
+    .main__reviews__advantage__item::before {
+        max-width: 200px;
+        max-height: 200px;
+    }
+
+    .main__work__description__wrapper {
+        padding: 25px 20px 25px 20px;
+        max-width: 80%;
+    }
+
+    .footer__email__subscription {
+        grid-template: "title" auto
+        "form" auto
+        "button" auto/ 1fr;
+        gap: 20px;
+        padding: 10px 50px;
+        justify-items: center;
+    }
+
+    .footer__email__subscription__title {
+        font-size: 36px;
+        line-height: 42px;
+        max-width: 90%;
+        margin-top: 15px;
+    }
+
+    .footer__email__subscription__form,
+    .footer__email__subscription__button {
+        margin: 0;
+    }
+
+    .footer__email__subscription__form {
+        height: 82px;
+    }
+
+    .footer__info__contacts__title, .footer__info__pages__title {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .footer__info__contacts__subtitle,
+    .footer__info__pages__link {
+        margin-top: 10px;
+    }
+
+    .footer__map iframe {
+        max-height: 300px;
+    }
+}

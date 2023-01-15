@@ -807,4 +807,6 @@ a {
     color: var(--light-green);
 }
 
-
+.footer__map iframe{
+    height: 662px;
+}
