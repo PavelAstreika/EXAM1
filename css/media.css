@@ -1,3 +1,14 @@
+:root {
+    --blue-green:#274C5B;
+    --light-green:#7EB693;
+    --light-blue-green:#335B6B;
+    --grey-blue:#525C60;
+    --pale-yellow:#EFD372;
+    --smoky-white:#F9F8F8;
+    --light-smoky-white:#F1F1F1;
+    --gainsborough:#E0E0E0;
+}
+
 @media (max-width: 1440px) {
 
     .main__products__card__wrapper, .main__all__products__card__wrapper {
@@ -68,6 +79,42 @@
 
     .footer__email__subscription__button {
         grid-area: button;
+    } 
+}
+
+@media (max-width: 1024px) {
+
+    .nav__toggle {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .header__nav__items {
+        display: none;
     }
     
+    .header__nav__items {
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: var(--pale-yellow);
+        margin-left: 0;
+        padding-right: 30px ;
+        min-width: 30%;
+        height: 100%;
+    }
+
+    .header__nav__item {
+        padding-top: 20px;
+    }
+
+    .header__nav__item__link:hover {
+        text-decoration: underline;
+        color: var(--light-green);
+    }
+
+    #nav__toggle:checked ~ .header__nav__items {
+        display: flex;
+        flex-direction: column;
+    }
 }
