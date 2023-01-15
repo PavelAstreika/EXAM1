@@ -22,3 +22,52 @@
         width: 100%;
     }
 }
+
+@media (max-width: 1152px) {
+
+    .header__nav__items {
+        margin-left: 60px;
+    }
+
+    .main__reviews__advantage {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px 0;
+    } 
+
+    .main__categories__item__name {
+        padding: 30px 40px;
+        margin: 150px auto;
+    }
+
+    .footer__email__subscription {
+        grid-template-rows: auto auto;
+    }
+
+    .footer__info__company {
+        padding: 0 25px;
+    }
+
+    .footer__info__company__description {
+        max-width: 430px;
+    }
+
+    .footer__email__subscription {
+        grid-template: "title ." auto
+        "form button" auto/ 1fr auto;
+        justify-items: start;
+        padding: 40px 50px;
+    }
+
+    .footer__email__subscription__title {
+        grid-area: title;
+    }
+
+    .footer__email__subscription__form {
+        grid-area: form; 
+    }
+
+    .footer__email__subscription__button {
+        grid-area: button;
+    }
+    
+}
