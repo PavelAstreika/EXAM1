@@ -476,5 +476,72 @@
         width: 40px;
         height: 40px;
     }
+}
 
+@media (max-width: 425px) {
+
+    .button {
+        font-size: 16px;
+    }
+
+    .header__wrapper {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        gap: 10px;
+    }
+
+    .main__offer__item__one, 
+    .main__offer__item__two {
+        padding: 30px 20px 30px 20px;
+    }
+
+    .main__offer__text {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .text__advantages {
+        grid-template-columns: 1fr;
+    }
+
+    .main__products__card__price, 
+    .main__all__products__card__price {
+        grid-template: "price-old price-new" auto
+        ". price-rating" auto/ 1fr 1fr;
+        gap: 10px;
+        justify-items: center;
+    }
+
+    .card__price__old {
+        margin: 0;
+        grid-area: price-old;
+    }
+
+    .card__price__new {
+        grid-area: price-new;  
+    }
+
+    .card__price__rating {
+        grid-area: price-rating;  
+    }
+
+    .main__categories__item__name {
+        margin: 60px auto;
+        padding: 20px;
+    }
+
+    .footer__email__subscription {
+        padding: 10px 20px;
+    }
+
+    .footer__info {
+        grid-template:
+            "pages" auto
+            "contacts" auto
+            "company" auto/ 1fr;
+    }
+
+    .footer__map iframe {
+        max-height: 200px;
+    }
 }
