@@ -545,3 +545,29 @@
         max-height: 200px;
     }
 }
+
+@media (max-width: 375px) {
+
+    .main__offer {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+
+    .main__reviews__advantage__item {
+        max-width: 100px;
+        max-height: 100px;
+    }
+
+    .main__reviews__advantage__item::before {
+        max-width: 120px;
+        max-height: 120px;
+    }
+
+    .main__reviews__advantage__value {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .main__reviews__advantage__index {
+        font-size: 14px;
+    }
+}
